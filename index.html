@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cool Comfort - Mumbai's #1 premium appliance repair service for AC, Refrigerator, Washing Machine, Microwave and Water Cooler. Certified technicians, same-day service, 90-day warranty." />
+  <title>Cool Comfort | Premium Appliance Repair Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="logo" aria-label="Cool Comfort Home">
+        <div class="logo-icon-wrap">
+          <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="15" cy="15" r="13.5" stroke="url(#navLogoG)" stroke-width="1.8"/>
+            <path d="M15 5v20M5 15h20M8 8l14 14M22 8L8 22" stroke="url(#navLogoG)" stroke-width="1.6" stroke-linecap="round"/>
+            <circle cx="15" cy="15" r="3.5" fill="url(#navLogoG)"/>
+            <defs>
+              <linearGradient id="navLogoG" x1="2" y1="2" x2="28" y2="28">
+                <stop offset="0%" stop-color="#7C3AED"/>
+                <stop offset="100%" stop-color="#06B6D4"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text">Cool<span class="logo-accent">Comfort</span></span>
+      </a>
+
+      <div class="nav-links" id="navLinks" role="menu">
+        <a href="#services" class="nav-link" role="menuitem">Services</a>
+        <a href="#why-us" class="nav-link" role="menuitem">Why Us</a>
+        <a href="#offers" class="nav-link" role="menuitem">Offers</a>
+        <a href="#diagnose" class="nav-link" role="menuitem">Diagnose</a>
+        <a href="#book" class="nav-link" role="menuitem">Book</a>
+        <a href="#track" class="nav-link" role="menuitem">Track</a>
+        <a href="#reviews" class="nav-link" role="menuitem">Reviews</a>
+        <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+        <a href="#book" class="nav-cta-btn" role="menuitem">Book Now</a>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero" class="hero-section" aria-label="Hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-blob blob-1"></div>
+      <div class="hero-blob blob-2"></div>
+      <div class="hero-blob blob-3"></div>
+      <div class="hero-grid"></div>
+      <canvas id="particleCanvas"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-tag">
+        <span class="tag-pulse"></span>
+        Mumbai's #1 Premium Appliance Service
+      </div>
+      <h1 class="hero-title">
+        Your Comfort<br/>
+        <span class="title-gradient">Restored.</span><br/>
+        <span class="title-outline">Guaranteed.</span>
+      </h1>
+      <p class="hero-sub">Expert repair for AC, Refrigerators, Washing Machines, Microwaves &amp; Water Coolers. Certified technicians at your doorstep with same-day service and 90-day warranty.</p>
+      <div class="hero-stats" aria-label="Key statistics">
+        <div class="hero-stat">
+          <div class="stat-num-wrap"><span class="stat-num" data-target="10000">0</span><span class="stat-plus">+</span></div>
+          <span class="stat-label">Repairs Done</span>
+        </div>
+        <div class="hero-stat-div" aria-hidden="true"></div>
+        <div class="hero-stat">
+          <div class="stat-num-wrap"><span class="stat-num" data-target="500">0</span><span class="stat-plus">+</span></div>
+          <span class="stat-label">Technicians</span>
+        </div>
+        <div class="hero-stat-div" aria-hidden="true"></div>
+        <div class="hero-stat">
+          <div class="stat-num-wrap"><span class="stat-num" data-target="98">0</span><span class="stat-plus">%</span></div>
+          <span class="stat-label">Satisfaction</span>
+        </div>
+        <div class="hero-stat-div" aria-hidden="true"></div>
+        <div class="hero-stat">
+          <div class="stat-num-wrap"><span class="stat-num" data-target="90">0</span><span class="stat-plus">-Day</span></div>
+          <span class="stat-label">Warranty</span>
+        </div>
+      </div>
+      <div class="hero-cta">
+        <a href="#book" class="btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Book a Repair
+        </a>
+        <a href="#diagnose" class="btn-secondary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          AI Diagnose
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section id="services" class="section" aria-label="Our Services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What We Fix</span>
+        <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+        <p class="section-sub">Comprehensive repair and maintenance for all major home appliances, backed by certified expertise</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal" tabindex="0">
+          <div class="card-glow-effect"></div>
+          <div class="service-icon-wrap">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+              <rect x="4" y="13" width="36" height="18" rx="5" fill="rgba(124,58,237,0.12)" stroke="url(#acS)" stroke-width="1.8"/>
+              <circle cx="22" cy="22" r="4.5" stroke="url(#acS)" stroke-width="1.8"/>
+              <path d="M9 22h4.5M30.5 22H35M14 17l2.5 2.5M27.5 26.5l2.5 2.5M14 27l2.5-2.5M27.5 17.5l2.5-2.5" stroke="url(#acS)" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M18 7l4 4 4-4M18 37l4-4 4 4" stroke="url(#acS)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs><linearGradient id="acS" x1="4" y1="7" x2="40" y2="37"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h3>AC Repair</h3>
+          <p>Gas recharging, compressor overhaul, coil deep cleaning, thermostat calibration &amp; PCB repair for all AC types.</p>
+          <ul class="service-features">
+            <li>Split &amp; Window AC</li>
+            <li>Gas Refilling</li>
+            <li>Deep Cleaning</li>
+            <li>PCB Diagnosis</li>
+          </ul>
+          <div class="service-price">Starting ₹499</div>
+          <a href="#book" class="service-book-btn">Book Service</a>
+        </div>
+
+        <div class="service-card reveal" tabindex="0">
+          <div class="card-glow-effect"></div>
+          <div class="service-icon-wrap">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+              <rect x="9" y="4" width="26" height="36" rx="4" fill="rgba(124,58,237,0.12)" stroke="url(#fridgeS)" stroke-width="1.8"/>
+              <line x1="9" y1="20" x2="35" y2="20" stroke="url(#fridgeS)" stroke-width="1.8"/>
+              <rect x="14" y="10" width="2.5" height="6" rx="1.25" fill="url(#fridgeS)"/>
+              <rect x="14" y="23" width="2.5" height="6" rx="1.25" fill="url(#fridgeS)"/>
+              <defs><linearGradient id="fridgeS" x1="9" y1="4" x2="35" y2="40"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h3>Refrigerator Repair</h3>
+          <p>Cooling issues, compressor replacement, ice maker repair, door seal fix &amp; refrigerant gas recharge for all models.</p>
+          <ul class="service-features">
+            <li>All Door Types</li>
+            <li>Compressor Repair</li>
+            <li>Ice Maker Fix</li>
+            <li>Gas Recharge</li>
+          </ul>
+          <div class="service-price">Starting ₹599</div>
+          <a href="#book" class="service-book-btn">Book Service</a>
+        </div>
+
+        <div class="service-card reveal" tabindex="0">
+          <div class="card-glow-effect"></div>
+          <div class="service-icon-wrap">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+              <rect x="5" y="4" width="34" height="36" rx="5" fill="rgba(124,58,237,0.12)" stroke="url(#washS)" stroke-width="1.8"/>
+              <circle cx="22" cy="26" r="10" stroke="url(#washS)" stroke-width="1.8"/>
+              <circle cx="22" cy="26" r="5" stroke="url(#washS)" stroke-width="1.4" stroke-dasharray="3 3"/>
+              <circle cx="13" cy="11" r="2.5" fill="url(#washS)"/>
+              <circle cx="20" cy="11" r="2.5" fill="url(#washS)"/>
+              <defs><linearGradient id="washS" x1="5" y1="4" x2="39" y2="40"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h3>Washing Machine</h3>
+          <p>Motor repair, drum replacement, water pump fix, PCB replacement &amp; vibration issues resolved for all load types.</p>
+          <ul class="service-features">
+            <li>Front &amp; Top Load</li>
+            <li>Motor Repair</li>
+            <li>Drum Bearing</li>
+            <li>Water Pump Fix</li>
+          </ul>
+          <div class="service-price">Starting ₹449</div>
+          <a href="#book" class="service-book-btn">Book Service</a>
+        </div>
+
+        <div class="service-card reveal" tabindex="0">
+          <div class="card-glow-effect"></div>
+          <div class="service-icon-wrap">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+              <rect x="3" y="11" width="38" height="24" rx="4" fill="rgba(124,58,237,0.12)" stroke="url(#microS)" stroke-width="1.8"/>
+              <rect x="7" y="15" width="22" height="16" rx="2.5" stroke="url(#microS)" stroke-width="1.6"/>
+              <circle cx="36" cy="19" r="2.5" fill="url(#microS)"/>
+              <circle cx="36" cy="27" r="2.5" fill="url(#microS)"/>
+              <path d="M11 23q2.5-3.5 5 0t5 0t4 0" stroke="url(#microS)" stroke-width="1.6" stroke-linecap="round"/>
+              <defs><linearGradient id="microS" x1="3" y1="11" x2="41" y2="35"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h3>Microwave Repair</h3>
+          <p>Magnetron replacement, turntable motor fix, door latch repair, control board replacement for all microwave models.</p>
+          <ul class="service-features">
+            <li>All Brands</li>
+            <li>Magnetron Fix</li>
+            <li>Door Latch Repair</li>
+            <li>Control Board</li>
+          </ul>
+          <div class="service-price">Starting ₹349</div>
+          <a href="#book" class="service-book-btn">Book Service</a>
+        </div>
+
+        <div class="service-card reveal" tabindex="0">
+          <div class="card-glow-effect"></div>
+          <div class="service-icon-wrap">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+              <rect x="11" y="4" width="22" height="30" rx="5" fill="rgba(124,58,237,0.12)" stroke="url(#coolerS)" stroke-width="1.8"/>
+              <ellipse cx="22" cy="11" rx="7" ry="3.5" stroke="url(#coolerS)" stroke-width="1.6"/>
+              <rect x="17.5" y="34" width="3.5" height="5" rx="1.5" fill="url(#coolerS)"/>
+              <rect x="23" y="34" width="3.5" height="5" rx="1.5" fill="url(#coolerS)"/>
+              <path d="M18 22 q4-4 8 0" stroke="url(#coolerS)" stroke-width="1.6" stroke-linecap="round"/>
+              <circle cx="22" cy="28" r="2.5" fill="url(#coolerS)"/>
+              <defs><linearGradient id="coolerS" x1="11" y1="4" x2="33" y2="39"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h3>Water Cooler Repair</h3>
+          <p>Cooling unit repair, pump replacement, thermostat calibration, leakage sealing &amp; complete sanitization service.</p>
+          <ul class="service-features">
+            <li>Hot &amp; Cold Units</li>
+            <li>Pump Repair</li>
+            <li>Thermostat Fix</li>
+            <li>Leak Sealing</li>
+          </ul>
+          <div class="service-price">Starting ₹399</div>
+          <a href="#book" class="service-book-btn">Book Service</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section id="why-us" class="section section-alt" aria-label="Why Choose Us">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Promise</span>
+        <h2 class="section-title">Why Choose <span class="gradient-text">CoolComfort</span></h2>
+        <p class="section-sub">We don't just fix appliances — we restore your peace of mind with every visit</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="url(#why1)" stroke-width="1.8" fill="rgba(124,58,237,0.15)"/><defs><linearGradient id="why1" x1="2" y1="2" x2="22" y2="21"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs></svg>
+          </div>
+          <h3>Certified Technicians</h3>
+          <p>500+ factory-trained and background-verified technicians with manufacturer certifications across all major brands.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="url(#why2)" stroke-width="1.8"/><polyline points="12 6 12 12 16 14" stroke="url(#why2)" stroke-width="1.8" stroke-linecap="round"/><defs><linearGradient id="why2" x1="2" y1="2" x2="22" y2="22"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs></svg>
+          </div>
+          <h3>Same-Day Service</h3>
+          <p>Book before noon and get service the same day. Emergency slots available 24/7 with guaranteed 90-minute response.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="url(#why3)" stroke-width="1.8" fill="rgba(124,58,237,0.12)"/><defs><linearGradient id="why3" x1="4" y1="2" x2="20" y2="22"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs></svg>
+          </div>
+          <h3>90-Day Warranty</h3>
+          <p>All repairs come with a 90-day service warranty. If the same issue recurs, we fix it at absolutely no extra charge.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><line x1="12" y1="1" x2="12" y2="23" stroke="url(#why4)" stroke-width="1.8" stroke-linecap="round"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="url(#why4)" stroke-width="1.8" stroke-linecap="round"/><defs><linearGradient id="why4" x1="6" y1="1" x2="18" y2="23"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs></svg>
+          </div>
+          <h3>Transparent Pricing</h3>
+          <p>No hidden charges, ever. Get a complete cost breakdown before any work begins. Pay only exactly what's quoted.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14 19.79 19.79 0 0 1 1.61 5.5 2 2 0 0 1 3.6 3.5h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 11a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 20l-.08-3.08z" stroke="url(#why5)" stroke-width="1.8"/><defs><linearGradient id="why5" x1="1" y1="3" x2="23" y2="21"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs></svg>
+          </div>
+          <h3>24/7 Support</h3>
+          <p>Emergency repair line open around the clock. Real humans, not bots — always ready to dispatch help immediately.</p>
+        </div>
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 11l3 3L22 4" stroke="url(#why6)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="url(#why6)" stroke-width="1.8"/><defs><linearGradient id="why6" x1="3" y1="2" x2="22" y2="21"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs></svg>
+          </div>
+          <h3>Genuine Spare Parts</h3>
+          <p>We use only OEM-grade genuine parts sourced directly from manufacturers. Zero counterfeits, always authentic.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OFFERS SECTION ===== -->
+  <section id="offers" class="section" aria-label="Special Offers">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Limited Time</span>
+        <h2 class="section-title">Exclusive <span class="gradient-text">Offers</span></h2>
+        <p class="section-sub">Premium service at unbeatable prices — don't let these deals slip away</p>
+      </div>
+      <div class="offers-grid">
+
+        <div class="offer-card offer-featured reveal">
+          <div class="offer-badge">🔥 HOT</div>
+          <div class="offer-appliance-icon">❄</div>
+          <h3>Summer AC Special</h3>
+          <div class="offer-discount">20% OFF</div>
+          <p>Complete AC service including gas recharge, coil deep clean &amp; performance optimization.</p>
+          <ul class="offer-list">
+            <li><span class="offer-check">✓</span> Gas Recharge</li>
+            <li><span class="offer-check">✓</span> Coil Deep Clean</li>
+            <li><span class="offer-check">✓</span> Performance Test</li>
+            <li><span class="offer-check">✓</span> 90-Day Warranty</li>
+          </ul>
+          <div class="offer-validity">Valid till 31 July 2026</div>
+          <a href="#book" class="btn-primary">Claim Offer</a>
+        </div>
+
+        <div class="offer-card reveal">
+          <div class="offer-badge">⭐ POPULAR</div>
+          <div class="offer-appliance-icon">🛠</div>
+          <h3>Annual Maintenance Pack</h3>
+          <div class="offer-discount">Save ₹2,000</div>
+          <p>Comprehensive annual coverage for up to 3 appliances with priority technician support all year.</p>
+          <ul class="offer-list">
+            <li><span class="offer-check">✓</span> 4 Service Visits</li>
+            <li><span class="offer-check">✓</span> Priority Booking</li>
+            <li><span class="offer-check">✓</span> Free Parts Check</li>
+            <li><span class="offer-check">✓</span> 1-Year Coverage</li>
+          </ul>
+          <div class="offer-validity">Available year-round</div>
+          <a href="#book" class="btn-secondary">Get Pack</a>
+        </div>
+
+        <div class="offer-card reveal">
+          <div class="offer-badge">🎁 NEW</div>
+          <div class="offer-appliance-icon">🎯</div>
+          <h3>First Service Free</h3>
+          <div class="offer-discount">₹500 FREE</div>
+          <p>New customer? Get your first basic service visit completely free — no strings attached whatsoever.</p>
+          <ul class="offer-list">
+            <li><span class="offer-check">✓</span> Free Diagnosis</li>
+            <li><span class="offer-check">✓</span> Free Inspection</li>
+            <li><span class="offer-check">✓</span> No Hidden Fees</li>
+            <li><span class="offer-check">✓</span> New Users Only</li>
+          </ul>
+          <div class="offer-validity">For new customers only</div>
+          <a href="#book" class="btn-secondary">Claim Free Service</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== AI DIAGNOSTIC SECTION ===== -->
+  <section id="diagnose" class="section section-alt" aria-label="AI Diagnostic Tool">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Smart Diagnosis</span>
+        <h2 class="section-title">AI <span class="gradient-text">Diagnostic</span></h2>
+        <p class="section-sub">Select your appliance and describe the issue — our AI provides an instant preliminary diagnosis</p>
+      </div>
+      <div class="diagnostic-wrapper reveal">
+        <div class="diag-panel-left">
+          <div class="diag-step-block">
+            <div class="diag-step-label">
+              <span class="diag-step-num">01</span>
+              Select Your Appliance
+            </div>
+            <div class="appliance-selector" id="applianceSelector" role="group" aria-label="Select appliance">
+              <button class="app-btn active" data-appliance="ac" aria-pressed="true">
+                <span class="app-btn-emoji" aria-hidden="true">❄</span>
+                <span>AC</span>
+              </button>
+              <button class="app-btn" data-appliance="fridge" aria-pressed="false">
+                <span class="app-btn-emoji" aria-hidden="true">🧊</span>
+                <span>Refrigerator</span>
+              </button>
+              <button class="app-btn" data-appliance="washing" aria-pressed="false">
+                <span class="app-btn-emoji" aria-hidden="true">🌀</span>
+                <span>Washing</span>
+              </button>
+              <button class="app-btn" data-appliance="microwave" aria-pressed="false">
+                <span class="app-btn-emoji" aria-hidden="true">📡</span>
+                <span>Microwave</span>
+              </button>
+              <button class="app-btn" data-appliance="cooler" aria-pressed="false">
+                <span class="app-btn-emoji" aria-hidden="true">💧</span>
+                <span>Water Cooler</span>
+              </button>
+            </div>
+          </div>
+          <div class="diag-step-block">
+            <div class="diag-step-label">
+              <span class="diag-step-num">02</span>
+              Select the Issue
+            </div>
+            <div class="issue-btn-grid" id="issueButtons" role="group" aria-label="Select issue"></div>
+          </div>
+        </div>
+        <div class="diag-panel-right">
+          <div class="diag-result-box" id="diagResult">
+            <div class="diag-ai-header">
+              <div class="diag-ai-dot"></div>
+              <span>AI Analysis Engine</span>
+            </div>
+            <div id="diagDefaultState" class="diag-default-state">
+              <div class="diag-default-icon" aria-hidden="true">🔍</div>
+              <h3>Select an Appliance &amp; Issue</h3>
+              <p>Our AI will analyze your symptoms and provide a preliminary diagnosis with cost estimate and recommended fix.</p>
+            </div>
+            <div id="diagResultContent" class="diag-result-content hidden">
+              <h3 id="diagTitle"></h3>
+              <p id="diagDesc"></p>
+              <div class="diag-tags">
+                <span class="diag-severity-badge" id="diagSeverity"></span>
+              </div>
+              <div class="diag-rec-box">
+                <div class="diag-rec-label">Recommended Fix</div>
+                <p id="diagRec"></p>
+              </div>
+              <div class="diag-cost-box">
+                <span class="diag-cost-label">Estimated Cost</span>
+                <span class="diag-cost-val" id="diagCost"></span>
+              </div>
+              <a href="#book" class="btn-primary diag-book-btn">Book This Repair</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOKING FORM ===== -->
+  <section id="book" class="section" aria-label="Book a Repair">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get Help Today</span>
+        <h2 class="section-title">Book a <span class="gradient-text">Repair</span></h2>
+        <p class="section-sub">Fill in your details and we'll dispatch a certified technician to your doorstep</p>
+      </div>
+      <div class="booking-wrapper reveal">
+        <form class="booking-form" id="bookingForm" novalidate aria-label="Repair booking form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="custName">Full Name <span class="required" aria-label="required">*</span></label>
+              <input type="text" id="custName" name="custName" placeholder="Your full name" autocomplete="name" required aria-required="true" aria-describedby="custNameError" />
+              <span class="field-error" id="custNameError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="custPhone">Phone Number <span class="required" aria-label="required">*</span></label>
+              <input type="tel" id="custPhone" name="custPhone" placeholder="+91 XXXXX XXXXX" autocomplete="tel" required aria-required="true" aria-describedby="custPhoneError" />
+              <span class="field-error" id="custPhoneError" role="alert"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="custAddress">Service Address <span class="required" aria-label="required">*</span></label>
+            <textarea id="custAddress" name="custAddress" rows="2" placeholder="Full address with landmark and pincode" autocomplete="street-address" required aria-required="true" aria-describedby="custAddressError"></textarea>
+            <span class="field-error" id="custAddressError" role="alert"></span>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="applianceType">Appliance Type <span class="required" aria-label="required">*</span></label>
+              <select id="applianceType" name="applianceType" required aria-required="true" aria-describedby="applianceTypeError">
+                <option value="">Select appliance</option>
+                <option value="ac">Air Conditioner</option>
+                <option value="fridge">Refrigerator</option>
+                <option value="washing">Washing Machine</option>
+                <option value="microwave">Microwave</option>
+                <option value="cooler">Water Cooler</option>
+              </select>
+              <span class="field-error" id="applianceTypeError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="applianceBrand">Brand <span class="required" aria-label="required">*</span></label>
+              <select id="applianceBrand" name="applianceBrand" required aria-required="true" aria-describedby="applianceBrandError">
+                <option value="">Select brand</option>
+                <option value="samsung">Samsung</option>
+                <option value="lg">LG</option>
+                <option value="whirlpool">Whirlpool</option>
+                <option value="daikin">Daikin</option>
+                <option value="voltas">Voltas</option>
+                <option value="haier">Haier</option>
+                <option value="bosch">Bosch</option>
+                <option value="godrej">Godrej</option>
+                <option value="ifb">IFB</option>
+                <option value="panasonic">Panasonic</option>
+                <option value="bluestar">Blue Star</option>
+                <option value="hitachi">Hitachi</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="applianceBrandError" role="alert"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="issueCategory">Issue Category <span class="required" aria-label="required">*</span></label>
+              <select id="issueCategory" name="issueCategory" required aria-required="true" aria-describedby="issueCategoryError">
+                <option value="">Select issue type</option>
+                <option value="not-working">Not Working at All</option>
+                <option value="cooling">Cooling Problem</option>
+                <option value="noise">Unusual Noise</option>
+                <option value="leaking">Water Leaking</option>
+                <option value="heating">Heating Issue</option>
+                <option value="electrical">Electrical Problem</option>
+                <option value="door">Door / Seal Issue</option>
+                <option value="display">Display / Control Issue</option>
+                <option value="maintenance">Regular Maintenance</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="issueCategoryError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="preferredTime">Preferred Time <span class="required" aria-label="required">*</span></label>
+              <select id="preferredTime" name="preferredTime" required aria-required="true" aria-describedby="preferredTimeError">
+                <option value="">Select time slot</option>
+                <option value="morning">Morning (8AM – 12PM)</option>
+                <option value="afternoon">Afternoon (12PM – 4PM)</option>
+                <option value="evening">Evening (4PM – 8PM)</option>
+                <option value="emergency">Emergency (ASAP +₹200)</option>
+              </select>
+              <span class="field-error" id="preferredTimeError" role="alert"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="customIssue">Describe Your Issue <span class="optional">(Optional)</span></label>
+            <textarea id="customIssue" name="customIssue" rows="3" placeholder="Describe in detail what's happening with your appliance — any unusual sounds, error codes, when it started..."></textarea>
+          </div>
+          <div class="form-footer-row">
+            <label class="save-check-label" for="saveInfo">
+              <input type="checkbox" id="saveInfo" name="saveInfo" />
+              <span class="save-check-custom" aria-hidden="true"></span>
+              Save my details for faster booking next time
+            </label>
+            <button type="submit" class="btn-primary btn-submit" id="submitBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              Confirm Booking
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WELCOME BACK SECTION ===== -->
+  <section id="welcome-back" class="section section-alt" aria-label="Welcome Back">
+    <div class="container">
+      <div class="welcome-outer reveal" id="welcomeContainer" aria-live="polite">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICE TRACKING ===== -->
+  <section id="track" class="section" aria-label="Track Your Repair">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Stay Updated</span>
+        <h2 class="section-title">Track Your <span class="gradient-text">Repair</span></h2>
+        <p class="section-sub">Enter your booking details to see live status updates from dispatch to completion</p>
+      </div>
+      <div class="tracking-wrapper reveal">
+        <div class="tracking-input-panel">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="trackBookingId">Booking ID</label>
+              <input type="text" id="trackBookingId" placeholder="e.g. CC001" aria-describedby="trackHint" />
+            </div>
+            <div class="form-group">
+              <label for="trackPhone">Phone Number</label>
+              <input type="tel" id="trackPhone" placeholder="+91 XXXXX XXXXX" />
+            </div>
+          </div>
+          <button class="btn-primary" id="trackBtn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            Track My Repair
+          </button>
+          <p class="track-demo-hint" id="trackHint">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Demo mode: Try Booking IDs <strong>CC001</strong>, <strong>CC002</strong>, <strong>CC003</strong>, or <strong>CC004</strong> with any phone number.
+          </p>
+          <div class="track-error hidden" id="trackError" role="alert">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            Booking not found. Please check your Booking ID and phone number.
+          </div>
+        </div>
+        <div class="tracking-result hidden" id="trackingResult" aria-live="polite">
+          <div class="tracking-meta-bar">
+            <div class="track-meta-item">
+              <span class="track-meta-label">Booking ID</span>
+              <strong id="trackDisplayId"></strong>
+            </div>
+            <div class="track-meta-item">
+              <span class="track-meta-label">Service</span>
+              <strong id="trackDisplayService"></strong>
+            </div>
+            <div class="track-meta-item">
+              <span class="track-meta-label">Technician</span>
+              <strong id="trackDisplayTech"></strong>
+            </div>
+          </div>
+          <div class="tracking-timeline" id="trackingTimeline" role="list" aria-label="Repair status timeline"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BEFORE & AFTER GALLERY ===== -->
+  <section id="gallery" class="section section-alt" aria-label="Before and After Gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Real Results</span>
+        <h2 class="section-title">Before &amp; <span class="gradient-text">After</span></h2>
+        <p class="section-sub">Drag the handle left or right to see the transformation. Real repairs, real results from our customers.</p>
+      </div>
+      <div class="gallery-grid">
+
+        <div class="ba-card reveal">
+          <div class="ba-content" aria-label="AC Repair before and after comparison">
+            <div class="ba-before-panel">
+              <div class="ba-panel-label before-label">Before</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">❄</span>
+                <span class="ba-status-chip bad">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Faulty
+                </span>
+              </div>
+              <ul class="ba-issue-list">
+                <li>No cooling effect</li>
+                <li>Gas leakage detected</li>
+                <li>Dirty condenser coils</li>
+              </ul>
+            </div>
+            <div class="ba-after-panel" id="baAfter1">
+              <div class="ba-panel-label after-label">After</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">❄</span>
+                <span class="ba-status-chip good">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Fixed
+                </span>
+              </div>
+              <ul class="ba-issue-list ba-fix-list">
+                <li>Optimal 18°C cooling</li>
+                <li>Gas recharged 100%</li>
+                <li>Professionally cleaned</li>
+              </ul>
+            </div>
+            <div class="ba-slider-wrap">
+              <div class="ba-divider" id="baDivider1" aria-hidden="true"></div>
+              <div class="ba-handle-btn" id="baHandle1" aria-hidden="true">⟷</div>
+              <input type="range" min="0" max="100" value="50" class="ba-range-input" aria-label="Before and after comparison slider" oninput="updateBASlider(this,'baAfter1','baDivider1','baHandle1')" />
+            </div>
+          </div>
+          <div class="ba-card-footer">
+            <span class="ba-service-tag">AC Repair · Andheri, Mumbai</span>
+            <span class="ba-card-rating" aria-label="4.9 stars">★ 4.9</span>
+          </div>
+        </div>
+
+        <div class="ba-card reveal">
+          <div class="ba-content" aria-label="Refrigerator Repair before and after comparison">
+            <div class="ba-before-panel">
+              <div class="ba-panel-label before-label">Before</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">🧊</span>
+                <span class="ba-status-chip bad"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Faulty</span>
+              </div>
+              <ul class="ba-issue-list">
+                <li>Not cooling food</li>
+                <li>Ice buildup in freezer</li>
+                <li>Loud compressor noise</li>
+              </ul>
+            </div>
+            <div class="ba-after-panel" id="baAfter2">
+              <div class="ba-panel-label after-label">After</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">🧊</span>
+                <span class="ba-status-chip good"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Fixed</span>
+              </div>
+              <ul class="ba-issue-list ba-fix-list">
+                <li>Stable 4°C cooling</li>
+                <li>Defrost system repaired</li>
+                <li>Silent operation restored</li>
+              </ul>
+            </div>
+            <div class="ba-slider-wrap">
+              <div class="ba-divider" id="baDivider2" aria-hidden="true"></div>
+              <div class="ba-handle-btn" id="baHandle2" aria-hidden="true">⟷</div>
+              <input type="range" min="0" max="100" value="50" class="ba-range-input" aria-label="Before and after comparison slider" oninput="updateBASlider(this,'baAfter2','baDivider2','baHandle2')" />
+            </div>
+          </div>
+          <div class="ba-card-footer">
+            <span class="ba-service-tag">Fridge Repair · Bandra, Mumbai</span>
+            <span class="ba-card-rating" aria-label="5 stars">★ 5.0</span>
+          </div>
+        </div>
+
+        <div class="ba-card reveal">
+          <div class="ba-content" aria-label="Washing Machine Repair before and after comparison">
+            <div class="ba-before-panel">
+              <div class="ba-panel-label before-label">Before</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">🌀</span>
+                <span class="ba-status-chip bad"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Faulty</span>
+              </div>
+              <ul class="ba-issue-list">
+                <li>Drum not spinning</li>
+                <li>Water not draining</li>
+                <li>Excessive vibration</li>
+              </ul>
+            </div>
+            <div class="ba-after-panel" id="baAfter3">
+              <div class="ba-panel-label after-label">After</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">🌀</span>
+                <span class="ba-status-chip good"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Fixed</span>
+              </div>
+              <ul class="ba-issue-list ba-fix-list">
+                <li>Full spin at 1400 RPM</li>
+                <li>Drain pump replaced</li>
+                <li>Balanced &amp; stable</li>
+              </ul>
+            </div>
+            <div class="ba-slider-wrap">
+              <div class="ba-divider" id="baDivider3" aria-hidden="true"></div>
+              <div class="ba-handle-btn" id="baHandle3" aria-hidden="true">⟷</div>
+              <input type="range" min="0" max="100" value="50" class="ba-range-input" aria-label="Before and after comparison slider" oninput="updateBASlider(this,'baAfter3','baDivider3','baHandle3')" />
+            </div>
+          </div>
+          <div class="ba-card-footer">
+            <span class="ba-service-tag">Washing Machine · Powai, Mumbai</span>
+            <span class="ba-card-rating" aria-label="4.8 stars">★ 4.8</span>
+          </div>
+        </div>
+
+        <div class="ba-card reveal">
+          <div class="ba-content" aria-label="Microwave Repair before and after comparison">
+            <div class="ba-before-panel">
+              <div class="ba-panel-label before-label">Before</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">📡</span>
+                <span class="ba-status-chip bad"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg> Faulty</span>
+              </div>
+              <ul class="ba-issue-list">
+                <li>No heating at all</li>
+                <li>Sparking inside</li>
+                <li>Turntable stuck</li>
+              </ul>
+            </div>
+            <div class="ba-after-panel" id="baAfter4">
+              <div class="ba-panel-label after-label">After</div>
+              <div class="ba-appliance-display">
+                <span class="ba-emoji" aria-hidden="true">📡</span>
+                <span class="ba-status-chip good"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg> Fixed</span>
+              </div>
+              <ul class="ba-issue-list ba-fix-list">
+                <li>Magnetron replaced</li>
+                <li>Safe, spark-free</li>
+                <li>Smooth 360° rotation</li>
+              </ul>
+            </div>
+            <div class="ba-slider-wrap">
+              <div class="ba-divider" id="baDivider4" aria-hidden="true"></div>
+              <div class="ba-handle-btn" id="baHandle4" aria-hidden="true">⟷</div>
+              <input type="range" min="0" max="100" value="50" class="ba-range-input" aria-label="Before and after comparison slider" oninput="updateBASlider(this,'baAfter4','baDivider4','baHandle4')" />
+            </div>
+          </div>
+          <div class="ba-card-footer">
+            <span class="ba-service-tag">Microwave Repair · Malad, Mumbai</span>
+            <span class="ba-card-rating" aria-label="4.9 stars">★ 4.9</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS SECTION ===== -->
+  <section id="reviews" class="section" aria-label="Customer Reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What Customers Say</span>
+        <h2 class="section-title">Trusted <span class="gradient-text">Reviews</span></h2>
+        <p class="section-sub">10,000+ customers across Mumbai trust CoolComfort for their appliance needs</p>
+      </div>
+      <div class="reviews-summary reveal" aria-label="Rating summary">
+        <div class="reviews-avg-block">
+          <span class="avg-score" aria-label="4.9 out of 5">4.9</span>
+          <div class="avg-stars" aria-hidden="true">★★★★★</div>
+          <span class="avg-label">Average Rating</span>
+        </div>
+        <div class="rating-bars">
+          <div class="rating-bar-row"><span>5★</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:82%"></div></div><span>82%</span></div>
+          <div class="rating-bar-row"><span>4★</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:12%"></div></div><span>12%</span></div>
+          <div class="rating-bar-row"><span>3★</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:4%"></div></div><span>4%</span></div>
+          <div class="rating-bar-row"><span>2★</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:1%"></div></div><span>1%</span></div>
+          <div class="rating-bar-row"><span>1★</span><div class="rating-bar-track"><div class="rating-bar-fill" style="width:1%"></div></div><span>1%</span></div>
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card reveal">
+          <div class="review-top">
+            <div class="reviewer-avatar" aria-hidden="true" style="background:linear-gradient(135deg,#7C3AED,#A78BFA)">P</div>
+            <div class="reviewer-info">
+              <strong>Priya Sharma</strong>
+              <span>Bandra, Mumbai</span>
+            </div>
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+          </div>
+          <p>"My Samsung AC stopped cooling in peak summer. CoolComfort dispatched a technician within 3 hours. Gas recharged, filters cleaned — running perfectly for 2 months. Worth every rupee!"</p>
+          <div class="review-meta">AC Repair &middot; June 2026</div>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-top">
+            <div class="reviewer-avatar" aria-hidden="true" style="background:linear-gradient(135deg,#06B6D4,#0EA5E9)">R</div>
+            <div class="reviewer-info">
+              <strong>Rahul Mehta</strong>
+              <span>Andheri, Mumbai</span>
+            </div>
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+          </div>
+          <p>"Washing machine vibrating badly and leaking water. Technician diagnosed a faulty drum bearing and broken door seal. Fixed in 2 hours flat. Great communication throughout the entire process!"</p>
+          <div class="review-meta">Washing Machine &middot; May 2026</div>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-top">
+            <div class="reviewer-avatar" aria-hidden="true" style="background:linear-gradient(135deg,#C084FC,#7C3AED)">S</div>
+            <div class="reviewer-info">
+              <strong>Sunita Patel</strong>
+              <span>Powai, Mumbai</span>
+            </div>
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+          </div>
+          <p>"Used the AI Diagnostic tool first — it correctly identified my fridge compressor issue! Booked immediately, tech arrived next morning. Full cost breakdown before starting. Genuinely transparent pricing."</p>
+          <div class="review-meta">Refrigerator Repair &middot; April 2026</div>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-top">
+            <div class="reviewer-avatar" aria-hidden="true" style="background:linear-gradient(135deg,#F59E0B,#EF4444)">A</div>
+            <div class="reviewer-info">
+              <strong>Arjun Nair</strong>
+              <span>Malad, Mumbai</span>
+            </div>
+            <div class="review-stars" aria-label="4 stars">★★★★☆</div>
+          </div>
+          <p>"Quick response, professional staff. Fixed our LG microwave magnetron and checked door seals at no extra charge. Minor delay in technician arrival but they compensated with a discount. Solid service."</p>
+          <div class="review-meta">Microwave Repair &middot; March 2026</div>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-top">
+            <div class="reviewer-avatar" aria-hidden="true" style="background:linear-gradient(135deg,#10B981,#059669)">K</div>
+            <div class="reviewer-info">
+              <strong>Kavita Reddy</strong>
+              <span>Juhu, Mumbai</span>
+            </div>
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+          </div>
+          <p>"Signed up for the Annual Maintenance Pack — best decision. 4 visits, priority booking, caught a refrigerant leak before it became major. CoolComfort is now our go-to for all appliance needs!"</p>
+          <div class="review-meta">Annual Pack &middot; February 2026</div>
+        </article>
+        <article class="review-card reveal">
+          <div class="review-top">
+            <div class="reviewer-avatar" aria-hidden="true" style="background:linear-gradient(135deg,#EC4899,#BE185D)">V</div>
+            <div class="reviewer-info">
+              <strong>Vikram Singh</strong>
+              <span>Dadar, Mumbai</span>
+            </div>
+            <div class="review-stars" aria-label="5 stars">★★★★★</div>
+          </div>
+          <p>"Office water cooler stopped dispensing properly on a Monday morning. Called CoolComfort at 7AM, tech arrived by 10AM, replaced the pump and sanitized the unit. Everything perfect. 5/5 service!"</p>
+          <div class="review-meta">Water Cooler &middot; January 2026</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ SECTION ===== -->
+  <section id="faq" class="section section-alt" aria-label="Frequently Asked Questions">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Got Questions?</span>
+        <h2 class="section-title">Frequently Asked <span class="gradient-text">Questions</span></h2>
+        <p class="section-sub">Everything you need to know before booking a repair with CoolComfort</p>
+      </div>
+      <div class="faq-list reveal" id="faqList" role="list">
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq1">
+            How quickly can you send a technician to my home?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" id="faq1" hidden>
+            <p>For standard bookings, we typically dispatch within 2–4 hours. Book before noon and you can often get same-day service. Our Emergency slot (available 24/7) guarantees a technician within 90 minutes with a nominal ₹200 surcharge.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq2">
+            Do you offer a warranty on repairs?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" id="faq2" hidden>
+            <p>Yes — every repair includes a 90-day service warranty. If the same issue recurs within 90 days, we fix it at no additional charge. Spare parts also carry their own manufacturer warranty, typically 6–12 months depending on the component.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq3">
+            Which brands and appliance models do you service?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" id="faq3" hidden>
+            <p>We service all major brands — Samsung, LG, Whirlpool, Daikin, Voltas, Haier, Bosch, Godrej, IFB, Panasonic, Blue Star, Hitachi, Toshiba, Sony, and many more. If you don't see your brand listed, just call us — we most likely service it.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq4">
+            How do I track my repair status after booking?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" id="faq4" hidden>
+            <p>After booking, you'll receive a unique Booking ID via SMS. Enter this ID with your phone number in the "Track Your Repair" section above to see real-time updates — from Pending all the way to Completed. You'll also receive automated SMS alerts at each stage.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq5">
+            What payment methods do you accept?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" id="faq5" hidden>
+            <p>We accept all major payment methods: UPI (Google Pay, PhonePe, Paytm), debit/credit cards, net banking, and cash. Annual Maintenance Packs also support 3-month EMI at zero interest. Payment is collected only after the repair is complete and you're satisfied.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq6">
+            Are your technicians background-verified and trained?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" id="faq6" hidden>
+            <p>Absolutely. Every technician undergoes comprehensive background verification, identity checks, and manufacturer-level skills certification before joining our team. They carry photo ID badges, and you'll receive the technician's name and photo via SMS before they arrive at your home.</p>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq7">
+            Is there a charge if no repair is needed after the visit?
+            <svg class="faq-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer" id="faq7" hidden>
+            <p>There is a nominal ₹99 diagnosis visit fee to cover the technician's travel costs. However, this amount is fully waived if you proceed with the repair. New customers using the "First Service Free" offer also have this fee waived entirely.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section id="contact" class="section" aria-label="Contact Us">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="gradient-text">Us</span></h2>
+        <p class="section-sub">Available 24/7 for emergency repairs. A real human always picks up — no bots.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-info-col reveal">
+          <div class="contact-info-card">
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.61 3.5h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 11a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 20l-.08-3.08z"/></svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Call / WhatsApp</strong>
+                <a href="tel:+919876543210">+91 98765 43210</a>
+                <span>Available 24/7</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Email Support</strong>
+                <a href="mailto:support@coolcomfort.in">support@coolcomfort.in</a>
+                <span>Reply within 2 hours</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Head Office</strong>
+                <span>123 Tech Park, Andheri East</span>
+                <span>Mumbai, Maharashtra 400069</span>
+              </div>
+            </div>
+            <div class="contact-info-item">
+              <div class="contact-info-icon" aria-hidden="true">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="contact-info-text">
+                <strong>Business Hours</strong>
+                <span>Mon–Sat: 8AM – 9PM</span>
+                <span>Emergency Line: 24/7</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-col reveal">
+          <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label for="contactName">Your Name <span class="required" aria-label="required">*</span></label>
+              <input type="text" id="contactName" placeholder="Your full name" required aria-required="true" />
+            </div>
+            <div class="form-group">
+              <label for="contactEmail">Email Address <span class="required" aria-label="required">*</span></label>
+              <input type="email" id="contactEmail" placeholder="your@email.com" required aria-required="true" />
+            </div>
+            <div class="form-group">
+              <label for="contactMsg">Message <span class="required" aria-label="required">*</span></label>
+              <textarea id="contactMsg" rows="4" placeholder="How can we help you today?" required aria-required="true"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand-col">
+          <a href="#hero" class="logo footer-logo" aria-label="CoolComfort Home">
+            <div class="logo-icon-wrap">
+              <svg width="28" height="28" viewBox="0 0 30 30" fill="none" aria-hidden="true">
+                <circle cx="15" cy="15" r="13.5" stroke="url(#footG)" stroke-width="1.8"/>
+                <path d="M15 5v20M5 15h20M8 8l14 14M22 8L8 22" stroke="url(#footG)" stroke-width="1.6" stroke-linecap="round"/>
+                <circle cx="15" cy="15" r="3.5" fill="url(#footG)"/>
+                <defs><linearGradient id="footG" x1="2" y1="2" x2="28" y2="28"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+              </svg>
+            </div>
+            <span class="logo-text">Cool<span class="logo-accent">Comfort</span></span>
+          </a>
+          <p class="footer-tagline">Mumbai's most trusted premium appliance repair service. Certified technicians, same-day service, guaranteed results — since 2018.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" class="social-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="#" aria-label="Instagram" class="social-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="#" aria-label="Twitter / X" class="social-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+            <a href="https://wa.me/919876543210" aria-label="WhatsApp" class="social-link"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">AC Repair</a></li>
+            <li><a href="#services">Refrigerator Repair</a></li>
+            <li><a href="#services">Washing Machine Repair</a></li>
+            <li><a href="#services">Microwave Repair</a></li>
+            <li><a href="#services">Water Cooler Repair</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#why-us">About Us</a></li>
+            <li><a href="#offers">Current Offers</a></li>
+            <li><a href="#gallery">Our Work</a></li>
+            <li><a href="#reviews">Customer Reviews</a></li>
+            <li><a href="#faq">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4>Quick Access</h4>
+          <ul>
+            <li><a href="#book">Book a Repair</a></li>
+            <li><a href="#track">Track Repair</a></li>
+            <li><a href="#diagnose">AI Diagnose</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CoolComfort. All rights reserved. Serving Mumbai 24/7.</p>
+        <p>Made with <span aria-hidden="true">❤</span><span class="sr-only">love</span> for Mumbai</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== SUCCESS MODAL ===== -->
+  <div class="modal-overlay" id="successModal" role="dialog" aria-modal="true" aria-labelledby="modalHeading" hidden>
+    <div class="modal-box">
+      <div class="modal-success-icon" aria-hidden="true">
+        <svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="url(#modalSuccessG)" stroke-width="1.8">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+          <polyline points="22 4 12 14.01 9 11.01"/>
+          <defs><linearGradient id="modalSuccessG" x1="2" y1="2" x2="22" y2="22"><stop offset="0%" stop-color="#7C3AED"/><stop offset="100%" stop-color="#06B6D4"/></linearGradient></defs>
+        </svg>
+      </div>
+      <h2 id="modalHeading">Booking Confirmed!</h2>
+      <p id="modalMessage">Your booking is received. Our team will call you within 30 minutes to confirm your technician's details and arrival time.</p>
+      <div class="modal-booking-id-display">
+        <span>Your Booking ID</span>
+        <strong id="modalBookingId"></strong>
+      </div>
+      <div class="modal-perks" aria-label="Booking perks">
+        <span>📱 SMS confirmation sent</span>
+        <span>⏱ Dispatch: 2–4 hours</span>
+        <span>🛡 90-day warranty</span>
+      </div>
+      <button class="btn-primary modal-close-btn" id="modalCloseBtn">Got It — Thanks!</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
